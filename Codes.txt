@@ -1,0 +1,75 @@
+Kenai Radio, November Eight Seven Five Tango Foxtrot. At 08 55, over Merrill at 1,100 feet, I encountered dense fog with a base at 500 feet. Tops were unknown. Conditions extended from 15th Avenue to Potter’s Marsh. Aircraft type is a Piper PA-32.
+-----------------------
+
+TKA UA /OV TTW-TKA/TM 1654/FL065/TP C182/SK OVC020-TOP030
+-------------------------
+MRI UA /OV BGQ180010/TM 2235/FLUNKN/TP PA31/SK BKN020-TOP027/OVC045-TOP060/RM THN CI ABV
+----------------------------------
+"Kenai Radio, November niner 8 2 4 4 a CESSNA TWO TEN. I-F-R. ONE FIVE MILES out on the Keenai ONE TWO ZERO RADIAL. EIGHT THOUSAND. TOP OF THE OVERCAST LAYER is four THOUSAND SEVEN HUNDRED, CLEAR ABOVE.  AIR TEMPERATURE MINUS TWELVE; negative icing."
+
+SQA UA /OV ENA120015/TM 0021/FL080/TP C210/SK OVCUNK-TOP037/ SKC/TA M12/IC NEG
+-----------------------------
+
+MCG UA /OV MCG360005/TM 2004/FL015/TP BE10/SK BKN017-TOP025/WX FV05SM HZ/TB NEG/IC NEG
+
+McGrath radio, Reeve 3 6 Pie Rep. One thousand seven hundred, Be E 10 over McGrath, bases broken one thousand seven hundred, visibility 10, negative turbulence, negative icing, during descend from the east. 
+
+McGrath radio, Reeve 3 6 Pie Rep. One thousand five hundred, I'm enraute to Sleetmute. I'm a Be E 10, I'm 5 miles north of McGrath, bases broken one thousand seven hundred, visibility 5 miles in haze, negative turbulence, negative icing.
+
+------------------------------------
+
+ILI UA /OV AKN/TM 2340/FL230/TP DH8A/SK OVCUNKN-TOP200/ SKC/TA M47/WV 04587KT/TB NEG
+
+Iliamna Radio, Raven Flight 2, over King Salmon with pirep. A Dash 8 Flight Level 2 4 0. Top of the Overcast are below me at 20,000. Clear above. Temperature Minus 47. Winds at 23,000 0 4 5 at Eighty Seven. We have a nice tail wind. Negative Turbulence.
+------------------------------------
+Looks good! Let's create page6. This is the new information for page6. "pirep_audio4" and the clock "0233Z1833L". The new display information will have the following in the boxes 
+
+"MCG UA /OV MCG/TM 2004/FL017/TP BE10/SK BKN017-TOP025/WX FV10SM/TB NEG/IC NEG/RM DURD E" all other functions should remain the same as previous pages.
+-------------------------------------
+
+MHM UUA /OV MCG040125/TM 0000/FL410/TP LJ35/SK SKC/TB MOD-SEV/WX FV99SM
+
+Fairbanks Radio. Security 51. Lear 35. On a flight from Saint Paul Island to Fairbanks. Flight Level 4 1 0. We currently are 125 miles Northeast of McGrath VORTAC on the 040 degree radial. We are experiencing Moderate to Severe Clear Air Turbulence at this altitude. Visibility Unrestricted with Clear Skies... Over
+-------------------------------------
+
+CDV UUA /OV JOH/TM 1530/FL310/TP LJ35/TB SEV CAT 
+
+Radio, Meh Deh VAC... FIVE SIX TWO Lima Alfa. LEAR 35. 4 0 west OF JOHNSTONE POINT V O R ON THE TWO SEVEN ZERO RADIAL. Altitude TREE TREE ZERO... We experience SEVERE CLEAR AIR TURBULENCE at 3 1 0. over the V O R.
+
+-------------------------------------
+
+Kenai Radio, Beaver 2 4 7 currently on the west side of Rainy Pass two thousand five hundred throughout. While on the east side of Rainy Pass over the Rainy Pass Airport all the way to Tatitna Airport I experience light rain showers. Bases of the broken layer where at two thousand one hundred. Additionally, I experience light rime icing with a temperature of minus 5. 
+
+--------------------------------------------------------
+
+PAQ UUA /OV PAQ/TM 1905/FL005/TP C172/SK SCT017 /TB MOD-OCNL SEV/RM LLWS +/-15KT SFC-005 DURD
+
+Palmer Radio, November niner niner six Kilo X-ray is a Cessna 1 72. During descent into Palmer. I experienced MODERATE TO OCCASIONAL SEVERE TURBULENCE at 500 feet. Low Level wind shear of plus or minus 1 5 between 500 and the surface. Bases scattered one thousand seven hundred.
+
+PAQ UUA /OV PAQ270002/TM 1905/FL010/TP C172/WV 10035KT /TB MOD-OCNL SEV/RM LLWS +/-15KT SFC-005 DURD
+
+
+------------------------------------------
+------------------------------------------
+Great! Let's create page9. This is the new information for page8. "jessica_audio8static" and the clock "1530Z0730L". The new display information will have the following in the boxes 
+"CDV UUA /OV JOH/TM 1530/FL310/TP LJ35/TB SEV CAT" all other functions should remain the same as previous pages.
+
+
+16
+CDV UA /OV CDV090015-CDV/TM 2235/FL080/TP DHC2/TA M15/TB NEG/IC MOD MX 080-030/RM DURD
+
+Juneau Radio, Beaver 2 4 fife, 15 miles east of Cordova with a PIREP at eight thousand... During descend to Cordova. I experienced moderate mix icing between 8 thousand and three thousand with a temperature of minus 1 5. Negative turbulence.
+
+-----------------------------------------
+
+PAQ UUA /OV PAQ270002/TM 0052/FL010/TP C172/WV 10035KT/TB MOD-SEV/RM DURD LLWS +/-15KT
+
+Kenai Radio, November niner niner six Kilo X-ray is a Cessna 1 72. I am two miles west of Palmer at 1 thousand. I am experiencing MODERATE TO OCCASIONAL SEVERE TURBULANCE at this altitude. Wind is one zero zero at 3 5. Low Level wind shear of plus or minus 1 5 during descent.
+------------------------------------
+FAI UA /OV ENN225012 /TM 2359 /FLUNKN /TP H60 /SK SKC /WX FV99SM /TA M08 /WV 04540KT /TB NEG /RM  OVER THE ALASKA RANGE TOP030
+
+Fairbanks Radio. ICY 5 2. H 60. Temperature minus 8. Wind 0 4 5 at 4 0. Negative Turbulence. Visibility Unrestricted. 1 2 miles Southwest of nanana on the 2 2 5 degree radial. Clear Skies. And over the Alaska Range Tops 3 thousand.
+-----------------------------------
+FAI UUA /OV FAI120074/TM 1530/FL300/TP B739/RM DURC MOUNTAIN WAVE +/- 500-800FT 
+
+Kenai Radio, Ace Air 31, with a PIREP. We are 40 miles southwest of the Anchorage VOR TAC on the 2 4 0 degree radial.  
