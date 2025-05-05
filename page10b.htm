@@ -6,37 +6,20 @@
   <style>
     body::before {
       content: "";
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
+      position: fixed; top: 0; left: 0; right: 0; bottom: 0;
       background: url("pirep_boneyard1.jpeg") no-repeat center center fixed;
-      background-size: cover;
-      opacity: 0.5;
-      z-index: -1;
+      background-size: cover; opacity: 0.5; z-index: -1;
     }
     .form-container {
-      width: 692px;
-      height: 754px;
-      position: relative;
-      z-index: 100;
-      background: url("pirep.png") no-repeat;
-      background-size: contain;
-      margin: 0 auto;
-      border: none;
+      width: 692px; height: 754px; position: relative; z-index: 100;
+      background: url("pirep.png") no-repeat; background-size: contain;
+      margin: 0 auto; border: none;
     }
     .form-field {
-      position: absolute;
-      font-size: 14px;
-      background-color: rgba(255,255,255,0.3);
-      border: 1px solid transparent;
-      z-index: 10;
-      box-sizing: border-box;
-      resize: none;
-      overflow: auto;
-      padding-left: 3.2ch;
-      text-transform: uppercase;
+      position: absolute; font-size: 14px;
+      background-color: rgba(255,255,255,0.3); border: 1px solid transparent;
+      z-index: 10; box-sizing: border-box; resize: none; overflow: auto;
+      padding-left: 3.2ch; text-transform: uppercase;
     }
     .accountable-facility { top: 40px; left: 140px; width: 75px; height: 21px; padding-left: 0.8ch; }
     .pilot-report-type    { top: 41px; left: 413px; width: 68px; height: 21px; text-align: left; padding-left: 5px; }
@@ -48,6 +31,7 @@
     .flight-level         { top: 108px; left: 326px; width: 80px; height: 21px; }
     .aircraft-type        { top: 108px; left: 498px; width: 88px; height: 21px; }
     .sky-condition        { top: 143px; left: 144px; width: 480px; height: 20px; }
+
     .flight-visibility    { top: 177px; left: 144px; width: 480px; height: 20px; }
     .temperature          { top: 211px; left: 144px; width: 480px; height: 20px; }
     .wind-velocity        { top: 245px; left: 144px; width: 480px; height: 20px; }
@@ -55,24 +39,28 @@
     .icing                { top: 314px; left: 144px; width: 480px; height: 20px; }
     .pilot-remarks        { top: 348px; left: 144px; width: 480px; height: 33px; }
     .braking-action       { top: 397px; left: 144px; width: 480px; height: 33px; }
+
     .transmit-box         { position: absolute; top: 590px; left: 505px; width: 75px; height: 21px;
                             border: 2px solid red; text-align: center; font-size: 14px; line-height: 21px;
-                            font-weight: bold; background-color: white; display: none; cursor: pointer; z-index: 120;}
+                            font-weight: bold; background-color: white; display: none; cursor: pointer; z-index: 120; }
     .next-box             { position: absolute; top: 590px; left: 590px; width: 75px; height: 21px;
                             border: 2px solid blue; text-align: center; font-size: 14px; line-height: 21px;
-                            font-weight: bold; background-color: white; display: none; cursor: pointer; z-index: 120;}
+                            font-weight: bold; background-color: white; display: none; cursor: pointer; z-index: 120; }
     #correctAnswer        { display: none; margin-top: 20px; font-size: 48px; font-weight: bold;
                             color: black; text-align: left; margin-left: 20px; }
+
     .cassette-container   { width: 333px; height: 250px; background: url('cassette_tape.png') no-repeat center;
-                            background-size: contain; position: absolute; left: 50px; top: 50px;
-                            border: 1px solid #555; box-shadow: 0px 4px 10px rgba(0,0,0,0.5); z-index: 1; }
+                            background-size: contain; position: absolute; left: 50px; top: 100px;
+                            border: 1px solid #555; box-shadow: 0 4px 10px rgba(0,0,0,0.5); z-index: 1; }
     .control-button       { width: 50px; height: 50px; font-size: 18px; font-weight: bold;
                             position: absolute; background: linear-gradient(to bottom, #666, #333);
-                            color: white; text-align: center; cursor: pointer; box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
-                            transition: all 0.2s ease-in-out; border: none; user-select: none; }
+                            color: white; text-align: center; cursor: pointer;
+                            box-shadow: 2px 2px 5px rgba(0,0,0,0.5); transition: all 0.2s ease-in-out;
+                            border: none; user-select: none; }
     .control-button:hover { background: linear-gradient(to bottom, #999, #666); }
     #playButton           { right: 210px; bottom: 50px; }
     #instructionAudio     { display: none; }
+
     .clock-container      { position: absolute; top: 10px; right: 100px; text-align: center; z-index: 999; }
     .clock-image          { display: block; margin: 0 auto; width: 175px; height: auto; }
     .clock-label          { font-size: 20px; font-weight: bold; color: black; margin-top: 5px; }
@@ -96,9 +84,9 @@
       <div id="populateBox" class="populate-box">A</div>
 
       <textarea name="phenomenaLocation" class="form-field phenomena-location"></textarea>
-      <textarea name="phenomenaTime" class="form-field phenomena-time"></textarea>
-      <textarea name="flight-level" class="form-field flight-level"></textarea>
-      <textarea name="aircraftType" class="form-field aircraft-type"></textarea>
+      <textarea name="phenomenaTime" class="form-field phenomena-time" maxlength="4"></textarea>
+      <textarea name="flight-level" class="form-field flight-level" maxlength="4"></textarea>
+      <textarea name="aircraftType" class="form-field aircraft-type" maxlength="4"></textarea>
       <textarea name="skyCondition" class="form-field sky-condition"></textarea>
 
       <textarea name="flightVisibility" class="form-field flight-visibility"></textarea>
@@ -110,21 +98,21 @@
       <textarea name="brakingAction" class="form-field braking-action"></textarea>
 
       <div id="transmitBox" class="transmit-box" onclick="newPilotReport()">Transmit</div>
-      <div id="nextBox" class="next-box" onclick="goToNextPage()">Next</div>
+      <div id="nextBox"    class="next-box"    onclick="goToNextPage()">Next</div>
     </div>
   </form>
 
   <div id="correctAnswer"></div>
 
   <div class="cassette-container">
-    <div id="cassetteLabel" class="cassette-label">PIREP 10b</div>
+    <div id="cassetteLabel" class="cassette-label">PIREP 11</div>
     <button id="playButton" class="control-button">▶️</button>
   </div>
 
-  <audio id="instructionAudio" src="john_audio10bstatic.mp3"></audio>
+  <audio id="instructionAudio" src="john_audio10bstatic2.mp3"></audio>
 
   <script>
-    // 1) "A" Populate Logic
+    // 1) Populate ("A") button logic
     let populateClickCount = 0;
     function populateAnswer() {
       if (populateClickCount === 0) {
@@ -140,34 +128,34 @@
           temperature:        "M05",
           icing:              "LGT RIME"
         };
-        Object.entries(answerValues).forEach(([name,val]) => {
+        Object.entries(answerValues).forEach(([name, val]) => {
           const f = document.querySelector(`[name="${name}"]`);
           if (f) f.value = val;
         });
         populateClickCount++;
       } else if (populateClickCount === 1) {
         document.getElementById("correctAnswer").innerText =
-          "PAPT UA/OV 6AK-FKK/TA 0145/FL005/TP M4/SK OVC005/WX FV02SM -SHRASN/TA M05/IC LGT RIME";
-        document.getElementById("correctAnswer").style.display = "block";
-        document.getElementById("transmitBox").style.display = "block";
-        document.getElementById("nextBox").style.display = "block";
+          "PAPT UA/OV 6AK-FKK/TM 0145/FL005/TP M4/SK OVC005/WX FV02SM -SHRASN/TA M05/IC LGT RIME";
+        document.getElementById("correctAnswer").style.display   = "block";
+        document.getElementById("transmitBox").style.display    = "block";
+        document.getElementById("nextBox").style.display        = "block";
         populateClickCount++;
       }
       checkCompletion();
     }
     document.getElementById("populateBox").addEventListener("click", populateAnswer);
 
-    // 2) Transmit Button
+    // 2) Transmit logic
     function newPilotReport() {
       document.getElementById("correctAnswer").innerText =
-        "PAPT UA/OV 6AK-FKK/TA 0145/FL005/TP M4/SK OVC005/WX FV02SM -SHRASN/TA M05/IC LGT RIME";
+        "PAPT UA/OV 6AK-FKK/TM 0145/FL005/TP M4/SK OVC005/WX FV02SM -SHRASN/TA M05/IC LGT RIME";
       document.getElementById("correctAnswer").style.display = "block";
-      document.getElementById("nextBox").style.display = "block";
+      document.getElementById("nextBox").style.display       = "block";
     }
 
-    // 3) Play Audio
-    const audio = document.getElementById("instructionAudio");
-    const playButton = document.getElementById("playButton");
+    // 3) Audio play/pause
+    const audio      = document.getElementById("instructionAudio"),
+          playButton = document.getElementById("playButton");
     playButton.addEventListener("click", () => {
       if (audio.paused || audio.ended) {
         audio.play();
@@ -175,11 +163,11 @@
       }
     });
     audio.addEventListener("ended", () => {
-      playButton.disabled = false;
-      playButton.innerText = "▶️";
+      playButton.disabled    = false;
+      playButton.innerText   = "▶️";
     });
 
-    // 4) Completion Check
+    // 4) Completion & “no extras” check
     function checkCompletion() {
       const required = {
         accountableFacility: "PAPT",
@@ -193,22 +181,48 @@
         temperature:        "M05",
         icing:              "LGT RIME"
       };
-      const ok = Object.entries(required).every(([n,v]) => {
+      // 4a) all required match
+      const allMatch = Object.entries(required).every(([n, v]) => {
         const f = document.querySelector(`[name="${n}"]`);
         return f && f.value.trim().toUpperCase() === v;
       });
-      document.getElementById("transmitBox").style.display = ok ? "block" : "none";
+      // 4b) every other field must be empty
+      const extrasEmpty = Array.from(document.querySelectorAll(".form-field")).every(f => {
+        return required.hasOwnProperty(f.name) || f.value.trim() === "";
+      });
+      document.getElementById("transmitBox").style.display = (allMatch && extrasEmpty) ? "block" : "none";
     }
+    // re-check on every input, uppercasing & trimming
     document.querySelectorAll(".form-field").forEach(f => {
       f.addEventListener("input", () => {
         f.value = f.value.toUpperCase();
         checkCompletion();
       });
     });
-    // initial check in case fields pre-filled
+
+    // 4c) Enforce hard 4-char limit on the three fields
+    document.querySelectorAll(
+      '[name="phenomenaTime"], [name="flight-level"], [name="aircraftType"]'
+    ).forEach(field => {
+      field.addEventListener("keydown", function(e) {
+        const navKeys = ["Backspace","Delete","ArrowLeft","ArrowRight","ArrowUp","ArrowDown","Tab","Home","End"];
+        if (
+          this.value.length >= 4 &&
+          !navKeys.includes(e.key) &&
+          !(e.ctrlKey || e.metaKey)
+        ) {
+          e.preventDefault();
+        }
+      });
+      field.addEventListener("input", function() {
+        if (this.value.length > 4) this.value = this.value.slice(0, 4);
+      });
+    });
+
+    // initial visibility check
     checkCompletion();
 
-    // 5) Next Button
+    // 5) Next page
     function goToNextPage() {
       window.location.href = "page11.htm";
     }
